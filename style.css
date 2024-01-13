@@ -189,7 +189,7 @@ body {
 }
 
 .section header {
-  margin-bottom: 15rem;
+  margin-bottom: 12rem;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -413,6 +413,7 @@ home .image::before {
 .about-section {
   padding: 10rem 0;
   gap: 5rem;
+  margin-bottom: -15rem;
 }
 
 .about-section img {
@@ -722,7 +723,7 @@ footer .social a:hover {
     padding: 10rem 0;
   }
   .about-section {
-    padding: 5rem 0;
+    padding-top: 5rem;
   }
 
   .section header,
@@ -850,7 +851,7 @@ footer .social a:hover {
   }
 
   .margin-top-card {
-    margin-top: -5rem;
+    margin-top: -10rem;
   }
 
   .margin-top-end-card {
