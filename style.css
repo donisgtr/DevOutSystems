@@ -136,7 +136,8 @@ body {
   background-color: var(--base-color);
   color: var(--text-color-light); 
   padding: 1rem 1rem 1rem 1rem;
-  border-radius: 5rem;
+  border-radius: 1rem;
+  
 }
 
 .button-membros:hover {
@@ -218,7 +219,7 @@ body {
 
 /*====  LOGO ============================ */
 .logo {
-  font: 500 1rem var(--title-font);
+  font: 600 1rem var(--title-font);
   color: var(--text-color);
 }
 
@@ -653,11 +654,13 @@ footer i {
 footer .social {
   grid-auto-flow: column;
   width: fit-content;
+  
 }
 
 footer .social a {
   transition: 0.3s;
   display: inline-block;
+  padding: 0.3rem;
 }
 
 footer .social a:hover {
