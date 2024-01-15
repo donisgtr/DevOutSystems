@@ -47,8 +47,9 @@ img {
   --body-background: hsl(228, 84%, 12%);
   --home-background: linear-gradient(
 330deg,
-    hsl(228, 84%, 12%),
-    hsl(0, 84%, 12%)
+    hsl(0, 84%, 12%),
+    hsl(228, 84%, 12%)
+    
   );
 
   --card-background: hsl(0 0% 98%);
@@ -219,7 +220,7 @@ body {
 
 /*====  LOGO ============================ */
 .logo {
-  font: 600 1rem var(--title-font);
+  font: 700 1rem var(--title-font);
   color: var(--text-color);
 }
 
